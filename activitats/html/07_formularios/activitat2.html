@@ -7,14 +7,43 @@
 </head>
 <body>
     <form>
-        <label>
-            <select name="modelo"> Modelo
-                <option value="0">Selecciona un modelo</option>
-                <option value="1">R4</option>
-                <option value="2">R5</option>
-                <option value="3">SR1</option>
-            </select>
-        </label>
+        <fieldset>
+            <label for="Nombre"> Nombre 
+                <input type="text" id="nombre" name="nombre" required>
+            </label>
+            <br> <br>
+            <label for="Correo eléctronico"> Correo eléctronico 
+                <input type="email" id="email" name="email" required>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="Modelo"> Modelo
+                <select name="modelo"> Modelo
+                    <option value="0">Selecciona un modelo</option>
+                    <option value="1">R4</option>
+                    <option value="2">R5</option>
+                    <option value="3">SR1</option>
+                </select>
+            </label>
+            <br> <br>
+            <label for="Potencia (50 - 100)"> Potencia 
+                <input type="number" id="Potencia" name="Potencia" min="50" max="100" required>
+            </label>
+            <br> <br>
+            <label for="¿Bluetooth?"> ¿Bluetooth? 
+                <select name="bluetooth"> ¿Bluetooth?
+                    <option value="0"></option>
+                    <option value="1">Sí</option>
+                    <option value="2">No</option>
+                </select>
+            </label>
+            <br> <br>
+            <label for="Color"> Color 
+                <input type="color" id="color" name="color" value="#000000">
+            </label>
+        </fieldset>
+        <input type="submit" value="Enviar formulario">
     </form>
 </body>
 </html>
