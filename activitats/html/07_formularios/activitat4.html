@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Buscar cámaras de fotos</h2>
+    <form>
+        <fieldset>
+            <legend>Filtros de búsqueda</legend>
+            <label for="marca"> Marca
+                <select name="marca">
+                    <option value="">Cualquier marca</option>
+                    <option value="nikon">Nikon</option>
+                    <option value="canon">Canon</option>
+                    <option value="sony">Sony</option>
+                    <option value="fujifilm">Fujifilm</option>
+                </select>
+            </label>
+            <br> <br>
+            <label for="cameratype"> Tipo de cámara </label> <br>
+            <input type="checkbox" id="reflex" name="Tipo[]" value="Reflex">
+            <label for="reflex"> Reflex </label> <br>
+            <input type="checkbox" id="mirrorless" name="Tipo[]" value="Mirrorless">
+            <label for="mirrorless"> Mirrorless </label> <br>
+            <input type="checkbox" id="compacta" name="Tipo[]" value="Compacta">
+            <label for="compacta"> Compacta </label>
+            <br> <br>
+            <label for="Resolución mínima"> Resolución mínima 
+                <input type="number" id="Resolución mínima" name="Resolución mínima" min="8" max="100" required>
+            </label>
+            <br> <br>
+            <label for="Precio mínimo"> Precio mínimo
+                <input type="number" id="Precio_min" name="Precio_min" min="0" required>
+            </label>
+            <br> <br>
+            <label for="Precio máximo"> Precio máximo
+                <input type="number" id="Precio_max" name="Precio_max" min="0" required>
+            </label>
+            <br> <br>
+            <label for="Vídeo"> Capacidad de vídeo </label><br>
+            <input type="radio" id="video_si" name="video" value="si">
+            <label for="video_si"> Con vídeo </label><br>
+            <input type="radio" id="video_no" name="video" value="no">
+            <label for="video_no"> Sin vídeo </label><br>
+        </fieldset>      
+        <input type="submit" value="Aplicar filtros">
+        <input type="reset" value="Limpiar filtros">
+    </form>
+</body>
+</html>
