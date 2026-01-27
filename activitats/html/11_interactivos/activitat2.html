@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buscador de smartphones</h1>
+    <p>Selecciona la marca y el rango de precios</p>
+
+  <main>
+
+    <!-- Formulario de búsqueda -->
+    <form>
+
+      <!-- Autocompletador de marca -->
+      <label for="marca">Marca:</label><br>
+      <input list="marcas" id="marca" name="marca" placeholder="Escribe una marca">
+      <datalist id="marcas">
+        <option value="Apple">
+        <option value="Samsung">
+        <option value="Xiaomi">
+        <option value="Huawei">
+        <option value="Google">
+        <option value="OnePlus">
+        <option value="Sony">
+      </datalist>
+
+      <br><br>
+
+      <!-- Selector de precios -->
+      <label for="precio">Rango de precios:</label><br>
+      <select id="precio" name="precio">
+        <option value="">-- Selecciona un rango --</option>
+        <option value="0-300">Menos de 300 €</option>
+        <option value="300-600">300 € – 600 €</option>
+        <option value="600-900">600 € – 900 €</option>
+        <option value="900+">Más de 900 €</option>
+      </select>
+
+      <br><br>
+
+      <button type="submit">Buscar</button>
+
+    </form>
+
+  </main>
+</body>
+</html>
