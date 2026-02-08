@@ -1,0 +1,6 @@
+.rectangulo {
+    --altura: 100px;
+    width: calc(var(--altura) * 2);
+    height: var(--altura);
+    background-color: aquamarine;
+}
