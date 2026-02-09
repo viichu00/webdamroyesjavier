@@ -1,0 +1,29 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 20px;
+background: white;
+}
+.marca {
+    color: orange;
+    font-weight: bold;
+}
+.link {
+    color: #1a73e8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fecha {
+    background: #1a73e8;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.purple {
+    color:purple;
+}
+.farmacia {
+    background: green;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
