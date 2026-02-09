@@ -14,7 +14,7 @@ body {
 }
 .input, .textarea {
     padding:6px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
 .list {
     display: flex;
@@ -22,7 +22,7 @@ body {
     gap: 8px;
 }
 .comment {
-    background: #eee;
+    background: rgb(179, 177, 177);
     padding: 8px;
     border-radius: 4px;
 }
