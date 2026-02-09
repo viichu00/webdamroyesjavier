@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.comments {
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 7px;
+}
+.comments_form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+.input, .textarea {
+    padding:6px;
+    border: 1px solid #ccc;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.comment {
+    background: #eee;
+    padding: 8px;
+    border-radius: 4px;
+}
+.author {
+    font-weight: bold;
+    margin: 0;
+}
+.text {
+    margin: 0;
+}
