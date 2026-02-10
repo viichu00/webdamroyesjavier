@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    color: #555;
+    background: #fff;
+}
+header {
+    border-bottom: 1px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.logo span {
+    color: #e53935;
+}
+header a {
+    text-decoration: none;
+    color: #aaa;
+}
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.introduccion {
+    background: #fafafa;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.resaltar {
+    background-color: #e53935;
+    color: #fff;
+    padding: 4px 8px;
+}
+.introduccion a {
+    color:#e53935;
+    border-bottom: 1px solid #e53935;
+}
+.publicacion {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+.fecha {
+    color: #999;
+    font-style: italic;
+    margin-right: 6px;
+}
+.titulo {
+    color: #e53935;
+    font-weight: bold;
+}
+.leer_mas{
+    color: #e53935;
+    border-bottom: 1px solid #e53935;
+}
