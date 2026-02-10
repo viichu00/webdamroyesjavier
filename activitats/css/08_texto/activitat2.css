@@ -3,20 +3,27 @@
     font-weight: bold;
     font-style: normal;
     text-align: center;
+    letter-spacing: 6px;
 }
 .autor {
     font-size: 22px;
     font-style: italic;
     font-weight: normal;
+    word-spacing: 12px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .head {
     font-size: 28px;
     font-weight: bold;
     font-style: normal;
+    text-transform: uppercase;
+    margin-top: 30px;
 }
 .parrafo {
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
+    text-align: justify;
+    margin-bottom: 15px;
 }
