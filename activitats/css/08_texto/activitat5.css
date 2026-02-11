@@ -1,0 +1,16 @@
+.normal {
+    font-style: normal;
+}
+.italics {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.mayus {
+    text-transform: uppercase;
+}
+.resaltado{
+    background-color: yellow;
+    font-style: italic;
+}
