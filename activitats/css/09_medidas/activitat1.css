@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 30px;
+    align-items: center;
+}
+.imagen_producto img {
+    max-width: 200px;
+}
+.informacion {
+    font-size: 2.2rem;
+    color: #1f6feb;
+}
+.detalles {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+.detalles span {
+    font-weight: bold;
+}
+.precio {
+    font-size: 2rem;
+    color: #2e7d32;
+    font-weight: bold;
+}
