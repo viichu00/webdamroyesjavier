@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0b1220, #020617);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: #e5e7eb;
+    display: grid;
+    place-items: center;
+}
+
+.chat {
+    width: min(920px, 92vw);
+    background: #111827;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    display: grid;
+    gap: 12px;
+}
+
+.message {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 10px;
+    align-items: start;
+}
+
+.message.me {
+    grid-template-columns: 1fr 44px;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255,255,255,.15);
+}
+
+.bubble {
+    background: #374151;
+    border-radius: 14px;
+    padding: 10px 12px;
+    max-width: 70ch;
+}
+
+.message.me .bubble {
+    background: #2563eb;
+    justify-self: end;
+}
+
+.header {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    margin-bottom: 6px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+time {
+    font-size: 0.75rem;
+    color: #9ca3af;
+}
+
+.text {
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+.message.me .header {
+    justify-content: flex-end;
+}
+
+.message.me .name {
+    order: 2;
+}
+
+.message.me time {
+    order: 1;
+}
