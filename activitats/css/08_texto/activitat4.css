@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Daily Vibes";
+    src: url("daily_vibes/Daily Vibes.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Serif";
+    src: url("open_serif/OpenSerif-Book.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.fuente-titulo {
+    font-family: "Daily Vibes", serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.fuente-texto {
+    font-family: "Open Serif";
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
