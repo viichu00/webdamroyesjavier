@@ -1,0 +1,35 @@
+.banner {
+      background: #e6f0ef;
+      padding: 20px 40px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.6;
+}
+.container {
+      padding: 80px 100px;
+      max-width: 1200px;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    line-height: 0.95;
+    margin-bottom: 30px;
+    text-transform: lowercase;
+}
+.description {
+    max-width: 520px;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+.boton {
+    display: inline-block;
+    padding: 14px 32px;
+    border: 2px solid #777;
+    border-radius: 999px;
+    background: transparent;
+    color: #111;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
