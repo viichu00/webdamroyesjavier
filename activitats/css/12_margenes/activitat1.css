@@ -1,0 +1,14 @@
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+p {
+    max-width: 900px;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 300px;
+}
+.gracias {
+    font-size: 36px;
+    font-weight: bold;
+}
