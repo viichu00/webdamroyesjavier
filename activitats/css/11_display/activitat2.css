@@ -1,0 +1,9 @@
+.marcado {
+    display: inline-block;
+    min-width: 110%;
+    text-align: center;
+    background: rgba(255, 235, 59, 0.6);
+    padding: 0.2em 0.4 em;
+    border-radius: 4px;
+    font-weight: bold;
+}
