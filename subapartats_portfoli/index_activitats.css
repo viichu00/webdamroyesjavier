@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner a {
+    display: block;
+    border-style: double;
+    border-width: 20px;
+    text-decoration: none;
+}
+.banner a:hover{
+    text-transform: uppercase;
+    color: red;
+    background-color: black;
+}
+.banner a img{
+    max-width: 80px;
+}
+.footer img{
+    max-width: 30px;
+}

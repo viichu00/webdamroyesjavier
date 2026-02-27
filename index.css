@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav a{
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.header nav a:hover{
+    text-transform: uppercase;
+    color: red;
+    background-color: black;
+}
+.footer img{
+    max-width: 30px;
+}
