@@ -2,22 +2,36 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header {
-    position: fixed;
     width: 100%;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+}
+.header h1{
+    margin-bottom: 20px;
 }
 .header nav a{
     margin-left: 1.5rem;
     text-decoration: none;
     font-weight: bolder;
+    border-style: dashed;
+    border-color: black;
 }
 .header nav a:hover{
     text-transform: uppercase;
-    color: red;
+    color: blue;
     background-color: black;
+}
+.noticias_frescas {
+    border-style: dashed;
+    border-color: black;
+    background-color: darkblue;
+    color: white;
+}
+.footer {
+    position: fixed;
 }
 .footer img{
     max-width: 30px;
