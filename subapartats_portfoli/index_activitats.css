@@ -10,14 +10,17 @@ body {
     text-decoration: none;
 }
 .banner a {
-    display: block;
-    border-style: double;
-    border-width: 20px;
+    margin-left: 1.5rem;
     text-decoration: none;
+    font-weight: bolder;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 5px;
+    padding: 3px 5px;
 }
 .banner a:hover{
     text-transform: uppercase;
-    color: red;
+    color: blue;
     background-color: black;
 }
 .banner a img{
