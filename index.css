@@ -18,17 +18,28 @@ body {
     font-weight: bolder;
     border-style: dashed;
     border-color: black;
+    border-radius: 5px;
+    padding: 3px 5px;
 }
 .header nav a:hover{
     text-transform: uppercase;
     color: blue;
     background-color: black;
 }
+img {
+    width: 500px;
+}
 .noticias_frescas {
     border-style: dashed;
     border-color: black;
     background-color: darkblue;
     color: white;
+}
+.fechaihora {
+    font-style: italic;
+}
+.noticia {
+    font-weight: bold;
 }
 .footer {
     position: fixed;
