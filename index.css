@@ -1,10 +1,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #011970;
+    color: white;
 }
 .header {
     width: 100%;
     padding: 2rem;
     display: flex;
+    background-color: #2542ab;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
@@ -16,6 +19,7 @@ body {
     margin-left: 1.5rem;
     text-decoration: none;
     font-weight: bolder;
+    background-color: white;
     border-style: dashed;
     border-color: black;
     border-radius: 5px;
@@ -26,13 +30,14 @@ body {
     color: blue;
     background-color: black;
 }
-img {
-    width: 500px;
+.fons {
+    width: 100%;
+    max-width: 300px;
 }
 .noticias_frescas {
     border-style: dashed;
     border-color: black;
-    background-color: darkblue;
+    background-color: rgb(53, 53, 152);
     color: white;
 }
 .fechaihora {
@@ -41,8 +46,23 @@ img {
 .noticia {
     font-weight: bold;
 }
+.anteriores {
+    display: inline-block;
+    justify-content: space-between;
+    border-style: dashed;
+    border-color: black;
+    background-color: rgb(53, 53, 152);
+    color: white;
+    margin: auto;
+}
 .footer {
-    position: fixed;
+    background-color: #2542ab;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
 }
 .footer img{
     max-width: 30px;
