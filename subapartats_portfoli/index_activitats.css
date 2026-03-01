@@ -1,10 +1,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #011970;
+    color: white;
 }
 .header {
     width: 100%;
     padding: 2rem;
     display: flex;
+    background-color: #2542ab;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
@@ -22,16 +25,7 @@ body {
     border-radius: 5px;
     padding: 3px 5px;
 }
-.banner a {
-    margin-left: 1.5rem;
-    text-decoration: none;
-    font-weight: bolder;
-    border-style: dashed;
-    border-color: black;
-    border-radius: 5px;
-    padding: 3px 5px;
-}
-.banner a:hover{
+.header nav a:hover{
     text-transform: uppercase;
     color: blue;
     background-color: black;
