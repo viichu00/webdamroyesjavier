@@ -45,8 +45,10 @@ body {
 .activitat {
     display: inline-table;
     align-items: center;
-    justify-content: space-between;
     padding: 5px 3px;
+}
+.activitat tr {
+    justify-content: center;
 }
 .banner a{
     text-decoration: none;
@@ -78,6 +80,7 @@ body {
     align-items: center;
 }
 .footer a {
+    display: inline;
     text-decoration: none;
     color: white;
 }
