@@ -29,3 +29,19 @@ body {
     color: blue;
     background-color: black;
 }
+.footer {
+    background-color: #2542ab;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+.footer img{
+    max-width: 30px;
+}
+.copyright {
+    text-align: center;
+}
