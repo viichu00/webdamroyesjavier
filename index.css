@@ -37,12 +37,16 @@ body {
 .noticia {
     font-weight: bold;
 }
+.contenido {    
+    text-align: justify;
+}
 .anteriores {
     display: inline-block;
     justify-content: space-between;
     background-color: rgb(53, 53, 152);
     color: white;
     margin: auto;
+    text-align: justify;
 }
 .footer {
     background-color: #2542ab;
