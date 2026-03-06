@@ -19,8 +19,6 @@ body {
     text-decoration: none;
     font-weight: bolder;
     background-color: white;
-    border-style: dashed;
-    border-color: black;
     border-radius: 5px;
     padding: 3px 5px;
 }
@@ -34,8 +32,6 @@ body {
     max-width: 300px;
 }
 .noticias_frescas {
-    border-style: dashed;
-    border-color: black;
     background-color: rgb(53, 53, 152);
     color: white;
 }
@@ -48,8 +44,6 @@ body {
 .anteriores {
     display: inline-block;
     justify-content: space-between;
-    border-style: dashed;
-    border-color: black;
     background-color: rgb(53, 53, 152);
     color: white;
     margin: auto;

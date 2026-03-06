@@ -19,8 +19,6 @@ body {
     text-decoration: none;
     font-weight: bolder;
     background-color: white;
-    border-style: dashed;
-    border-color: black;
     border-radius: 5px;
     padding: 3px 5px;
 }
@@ -28,6 +26,17 @@ body {
     text-transform: uppercase;
     color: blue;
     background-color: black;
+}
+.tit {
+    text-align: center;
+}
+.contacto {
+    text-align: justify;
+    justify-content: space-around;
+    background-color: rgb(53, 53, 152);
+    color: white;
+    margin: auto;
+    padding: 8px 5px;
 }
 .footer {
     background-color: #2542ab;

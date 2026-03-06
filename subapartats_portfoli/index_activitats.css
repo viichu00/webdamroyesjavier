@@ -19,8 +19,6 @@ body {
     text-decoration: none;
     font-weight: bolder;
     background-color: white;
-    border-style: dashed;
-    border-color: black;
     border-radius: 5px;
     padding: 3px 5px;
 }
@@ -33,30 +31,31 @@ body {
     text-align: center;
 }
 .banner {
-    display: inline-block;
-    align-items: center;
-    background-color: #2542ab;
-    margin-inline: 10px;
-    margin-bottom: 10px;
-}
-.banner table {
-    padding: 5px;
-}
-.activitat {
-    display: inline-table;
-    align-items: center;
-    padding: 5px 3px;
-}
-.activitat tr {
+    display: flex;
     justify-content: center;
+    gap: 80px;
+    background-color: #2542ab;
+    padding: 40px;
+}
+.enlaces_act {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.banner img {
+    width: 150px;
+    display: block;
+    margin-bottom: 15px;
 }
 .banner a{
     text-decoration: none;
-    text-align: center;
+    color: white;
+    font-size: 18px;
 }
-.banner a img{
-    max-width: 80px;
-    align-items: center;
+.inici {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 .inici a{
     text-align: center;
@@ -64,8 +63,6 @@ body {
     text-decoration: none;
     font-weight: bolder;
     background-color: white;
-    border-style: dashed;
-    border-color: black;
     border-radius: 5px;
     padding: 3px 5px;
 }

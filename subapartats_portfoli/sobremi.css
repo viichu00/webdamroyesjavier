@@ -19,8 +19,6 @@ body {
     text-decoration: none;
     font-weight: bolder;
     background-color: white;
-    border-style: dashed;
-    border-color: black;
     border-radius: 5px;
     padding: 3px 5px;
 }
@@ -28,6 +26,23 @@ body {
     text-transform: uppercase;
     color: blue;
     background-color: black;
+}
+.tit {
+    text-align: center;
+}
+img {
+    align-items: center;
+    width: 200px;
+    border-radius: 50%;
+}
+table {
+    display: block;
+}
+.desc {
+    text-align: justify;
+    justify-content: space-around;
+    color: white;
+    margin: auto;
 }
 .footer {
     background-color: #2542ab;
