@@ -30,7 +30,9 @@ body {
 .tit {
     text-align: center;
 }
-img {
+.borrador {
+    display: block;
+    margin: auto;
     width: 500px;
     justify-content: center;
 }
