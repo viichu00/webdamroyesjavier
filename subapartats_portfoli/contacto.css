@@ -57,11 +57,12 @@ body {
     margin: auto;
     padding: 8px 5px;
 }
-.horario {
-    align-items: center;
-    border: 1px solid white;
+.horario {    
+    margin: auto;
+    justify-content: center;
 }
 .horario td {
+    margin: auto;
     border: 1px solid white;
 }
 .footer {
