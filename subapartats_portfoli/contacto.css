@@ -30,6 +30,25 @@ body {
 .tit {
     text-align: center;
 }
+.inici {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.inici a{
+    text-align: center;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.inici a:hover{
+    text-transform: uppercase;
+    color: blue;
+    background-color: black;
+}
 .contacto {
     text-align: justify;
     justify-content: space-around;
