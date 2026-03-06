@@ -27,10 +27,6 @@ body {
     color: blue;
     background-color: black;
 }
-.fons {
-    width: 100%;
-    max-width: 300px;
-}
 .noticias_frescas {
     background-color: rgb(53, 53, 152);
     color: white;
