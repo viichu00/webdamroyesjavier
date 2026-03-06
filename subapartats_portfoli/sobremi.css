@@ -30,6 +30,11 @@ body {
 .tit {
     text-align: center;
 }
+.sobre_mi {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
 img {
     align-items: center;
     width: 200px;

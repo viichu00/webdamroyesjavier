@@ -57,6 +57,13 @@ body {
     margin: auto;
     padding: 8px 5px;
 }
+.horario {
+    align-items: center;
+    border: 1px solid white;
+}
+.horario td {
+    border: 1px solid white;
+}
 .footer {
     background-color: #2542ab;
     justify-content: space-between;
